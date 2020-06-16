@@ -1,0 +1,18 @@
+body{
+    background: url('../imagenes/flores.jpg');
+    background-attachment: fixed;
+}
+#logo{
+    
+    background: #f79c25;
+    
+}
+#menu ul li:hover{
+    background: #f79c25;
+}
+
+.button{
+    
+    background: #f79c25;
+    
+}

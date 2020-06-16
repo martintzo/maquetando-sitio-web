@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>Proyecto con JavaScript</title>
+        <meta charset="utf-8"/>
+        <!--Hoja de estilos-->
+        <link rel="stylesheet" type="text/css"  href="css/styles.css"/>
+        <link id="theme" rel="stylesheet" type="text/css" href="css/green.css"/>
+        
+        
+        <!-- SLIDER -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+        
+
+
+        <!--<script src="/js/mine.js"></script>-->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+        
+        <script src="js/mine.js"></script>
+        
+        <!-- momonts js-->
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.26.0/moment.min.js"></script>
+
+        
+
+    </head>
+    <body>
+        <div id="selector-theme">
+            <div id="to-green"></div>
+            <div id="to-blue"></div>
+            <div id="to-orange"></div>
+
+        </div>
+    
+        <section id="global">
+            <header>
+                <div id="logo">
+                    <h1>PROYECTO JS</h1>
+
+                </div>
+                <div class="clearfix"></div>
+                <nav id="menu">
+                    <ul >
+                        <li><a href="#">Inicio</a></li>
+                        <li><a href="#">Calculadora</a></li>
+                        <li><a href="#">Reloj</a></li>
+                        <li><a href="#">Sobre mi</a></li>
+                        <li><a href="#">Contacto</a></li>
+
+                    </ul>
+
+
+                </nav>
+            </header>
+            <!--Slider-->
+            <div id="slider">
+                <div class="slider">
+                    <div><img src="imagenes/barco2.jpg"></div>
+                    <div><img src="imagenes/flores.jpg" ></div>
+                    <div><img src="imagenes/arboles2.jpg" ></div>
+                    
+                </div>
+
+            </div>
+            
+            
+            <!--Contenido-->
+            <section id="content">
+                <div id="posts">
+                    <!-- Cargar los posts con desde json-->
+
+                </div>
+                <aside id="sidebar">
+                    <div id="about">
+                        <h4><span>¿Que hacemos?</span></h4>
+                        <img src="D:\Users\Usuario\Desktop\Master JavaScript\imagenes\barco2.jpg" >
+
+                        <p>Aenean bibendum diam eget congue accumsan. Vivamus pharetra augue et mi cursus, nec rutrum justo gravida. Vestibulum eget hendrerit sem. Nunc non odio enim. Nunc quis placerat tellus. Duis in cursus ligula.
+                        </p>
+                    </div>
+                    <div >
+                        <h4><span>Identificate</span></h4>
+                        <form action="" id="login">
+
+
+                            <label for="name">
+                                Nombre
+                            </label>
+                            <input type="text" name="name" id="form_name" />
+
+                            <label for="email">
+                                Correo
+                            </label>
+                            <input type="email" name="email" />
+
+                            <label for="password">
+                                contraseña
+                            </label>
+                            <input type="password" name="password" />
+
+                            <input type="submit" name="Enviar">
+
+
+                        </form>
+                    </div>
+
+                </aside>
+                <div class="clearfix"></div>
+
+
+
+            </section>
+
+
+
+        </section>
+        <footer>
+            Curso JavaScript maquetando mi sitio web
+            <a href="#" class="subir">Subir Arriba</a>
+        </footer>
+        
+    </body>
+</html>

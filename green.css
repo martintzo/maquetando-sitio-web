@@ -1,0 +1,19 @@
+body{
+    background: url('../imagenes/arboles2.jpg');
+    background-attachment: fixed;
+}
+
+#logo{
+    
+    background: #235e3d;
+    
+}
+#menu ul li:hover{
+    background: #235e3d;
+}
+
+.button{
+    
+    background: #235e3d;
+    
+}
